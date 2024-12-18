@@ -1,0 +1,95 @@
+@font-face{
+    font-family: 'Scoreboard';
+    src: url('fonts/scoreboard.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #8a7cac;
+    background-size: cover;
+}
+.panel{
+    width: 100%;
+    max-width: 540px;
+    background: #3206a0;
+    border: 2px solid red;
+    margin: 50px auto;
+    padding: 50px 30px 50px 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h2{
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+h1{
+    background: black;
+    color: red;
+    font-family: 'Scoreboard';
+    font-size: 100px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.row button{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Scoreboard';
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+}
+.row button:hover{
+    background: rgb(255, 0, 0);
+}
+
+.newgame{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Scoreboard';
+    font-weight: bolder;
+    margin: 20px auto 20px;
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+   justify-content: center;
+   align-content: center;
+}
+.newgame:hover{
+    background: rgb(255, 0, 0);
+}
