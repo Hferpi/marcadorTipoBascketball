@@ -28,4 +28,6 @@ Es responsive. 🧮
   
 <br>
 <br>
-<h6>Gracias por visitar el repo 🥳 </h6>
+<h6>Gracias por visitar el repo 🚀 </h6>
+<h6>Profesor: JAVIER JIMON MONTOYA, asignatura lenguaje de marcas</h6>
+
